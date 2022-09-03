@@ -91,7 +91,7 @@ public class GameWin extends JFrame {//GameWin 是普通的java类 继承JFrame�
             gImage.setFont(new Font("仿宋",Font.BOLD,40));
             gImage.drawString("点击开始游戏",180,300);
         }
-        if (state == 1){//将BgObj的paintself方法绘制到此代码块中
+        if (state == 1){//将BgObj的PaintSelf方法绘制到此代码块中
             //运行中
             for (int i = 0; i < GameUtils.gameObjList.size() ; i++){
                 GameUtils.gameObjList.get(i).paintSelf(gImage);
